@@ -20,3 +20,56 @@ body {
     padding: 1rem 0;
     text-align: center;
 }
+
+.subtitle {
+    opacity: 70%;
+}
+
+.content {
+    display: flex; /*coloca las tarjetas una al lado de la otra*/
+    gap: 3rem; /*separar las tarjetas*/
+    flex-wrap: wrap; /*permite que las tarjetas bajen de linea si no caben*/
+    justify-content: center; /*centrar las tarjetas*/
+    padding: 2rem;
+    background: linear-gradient(90deg, rgb(3, 41, 136) 0%, #566ec4 100%);
+}
+
+.card {
+    background-color: #85bbc1dd;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0.6px 15px rgba(189, 191, 203, 0.418); /*sombra de la tarjeta*/
+    width: 300px;
+}
+
+.card h2 {
+    margin-bottom: 0.5rem;
+    color:rgb(0, 0, 0)
+}
+
+.card p {
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #13213d;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.card a{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #13213d;
+    color: white;
+}
